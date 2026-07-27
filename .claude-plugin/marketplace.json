@@ -1,0 +1,18 @@
+{
+  "name": "jgobuilds",
+  "owner": {
+    "name": "jgobuilds",
+    "url": "https://github.com/jgobuilds"
+  },
+  "metadata": {
+    "description": "Engineering standards and agent governance tooling.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "ai-standards",
+      "source": "./",
+      "description": "PII controls that fail closed, MCP server conventions, alert contracts, dependency-security gates, context budgets, and the review lenses behind them."
+    }
+  ]
+}

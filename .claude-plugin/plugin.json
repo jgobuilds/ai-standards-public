@@ -1,0 +1,19 @@
+{
+  "name": "ai-standards",
+  "description": "Engineering standards for AI coding agents: PII controls that fail closed, MCP server conventions, notification/alert contracts, dependency-security gates, context budgets, and the review lenses behind them. Every rule was written after a real failure.",
+  "version": "0.1.0",
+  "author": {
+    "name": "jgobuilds"
+  },
+  "homepage": "https://github.com/jgobuilds/ai-standards-public",
+  "repository": "https://github.com/jgobuilds/ai-standards-public",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "standards",
+    "pii",
+    "security",
+    "mcp",
+    "code-review",
+    "ci"
+  ]
+}
