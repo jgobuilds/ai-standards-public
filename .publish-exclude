@@ -1,0 +1,12 @@
+# Files NOT published to the public snapshot.
+#
+# `change-safety.md`: "Publishing is a list, not a side effect." This is that
+# list. An empty file means "publish everything" — said out loud, rather than
+# happening because nobody wrote one. publish_snapshot.py REFUSES if this file
+# is missing, because publishing everything by accident looks identical to
+# publishing everything on purpose.
+
+# Internal incident record. Kept privately — it is the most useful thing here for
+# anyone maintaining the standard, and it names one contributor's repeated
+# mistakes, which is the owner's call to publish rather than a default.
+references/rcps-broad-add.md

@@ -1,0 +1,19 @@
+
+# --- PII controls (ai-standards) ---
+# Real personal data lives OUTSIDE the repo. These paths are conventional
+# homes for it; the pre-commit hook is what actually enforces the rule.
+*.local.*
+*.private.*
+.local/
+data/private/
+data/raw/
+secrets/
+.pii-vault/
+.env
+.env.*
+!.env.example
+# --- end PII controls ---
+
+# Python
+__pycache__/
+*.pyc
